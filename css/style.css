@@ -1,0 +1,19 @@
+# Empty CSS file for your own CSS
+body,h1,h2,h3,span,li,ul,img{margin:0px;padding:0px;}
+ul{list-style-type:none;}
+span{display:block;}
+.main{width:1200px;overflow:hidden;margin:0 auto;}
+.case_ul{ width:1240px; overflow:hidden;margin-top:20px;padding-left:0;}
+.case_ul li{ width:270px; height:264px; background:#fff; 
+border-bottom:3px solid #dfdcdd; margin-bottom:40px; overflow:hidden; padding-top:0;
+position:relative; float:left; margin-right:25px;}
+.case_ul li h3{margin-top:0px;}
+.case_ul li em{font-size:14px;float:right;}
+.case_ul li h3.name{ font-size:18px;height:74px;padding-top:45px; display:block; background:#fff}
+.case_ul li h3.hover{ background:#ff7f00; color:#fff}
+.black_cover{ width:270px; height:190px; background:#000;filter:alpha(opacity=70);
+-moz-opacity:0.7;opacity: 0.7; display:block; position:absolute; left:0; top:0; z-index:1; display:none;}
+.scan_code{ position:absolute; left:58px; top:-154px; width:154px; height:154px; display:block; z-index:2;}
+.scan_icon{ width:40px; height:40px;background-image:url(img/scan_icon.png);background-repeat:no-repeat; 
+background-position:0 -40px;position:absolute; left:115px; top:171px; z-index:3;}
+.scan_icon_hover{background-position:0 0;}
